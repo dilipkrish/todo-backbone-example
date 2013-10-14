@@ -1,18 +1,16 @@
 package todo;
 
 
-import java.util.ArrayList;
-import java.util.List;
-import javax.inject.Inject;
 import org.fest.assertions.api.Assertions;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
-import org.resthub.test.AbstractTest;
-import org.springframework.test.context.ActiveProfiles;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Unit tests for the Todo Controller.
